@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 const Product = ({ name, price, color, data }) => {
   // return <div>This is Prodcut component</div>;
