@@ -4,9 +4,14 @@ import "./App.css";
 import Product from "./components/Product";
 
 function App() {
+  const obj = {
+    ram: "128GB",
+    rom: "100GB",
+  };
   return (
     <>
-      <Product name="iphone" price={70000} color="blue" />
+      <Product name="iphone 7" price={70000} color="blue" data={obj} />
+      <Product name="iphone 8" price={80000} color="black" />
       {/* Data passing from parent to child */}
     </>
   );
